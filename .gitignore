@@ -1,0 +1,17 @@
+# Project exclude paths
+/MybatisDemo1_quick/target/
+/MybatisDemo2_dao/target/
+/MybatisDemo3_mapper/target/
+/MybatisDemo4_config/target/
+/MybatisDemo5_multi/target/
+/MybatisDemo6_anno/target/
+/SpringDemo1_ioc/target/
+/SpringDemo2_anno/target/
+/SpringDemo3_MVC/target/
+/SpringDemo4_jdbc/target/
+/SpringDemo5_test/target/
+/SpringDemo6_interceptor/target/
+/SpringDemo7_exception/target/
+/SpringDemo8_aop/target/
+/SpringDemo9_tx/target/
+/SpringDemo9_tx_anno/target/

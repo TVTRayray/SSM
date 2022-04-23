@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/MybatisDemo1_quick/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisDemo1_quick/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisDemo2_dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisDemo2_dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisDemo3_mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisDemo3_mapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisDemo4_config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisDemo4_config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisDemo5_multi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisDemo5_multi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisDemo6_anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisDemo6_anno/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo1_ioc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo1_ioc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo2_anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo2_anno/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo3_MVC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo3_MVC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo4_jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo4_jdbc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo5_test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo5_test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo6_interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo6_interceptor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo7_exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo7_exception/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo8_aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo8_aop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo9_tx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo9_tx/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo9_tx_anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDemo9_tx_anno/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

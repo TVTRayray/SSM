@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringDemo3_MVC:war">
+    <output-path>$PROJECT_DIR$/SpringDemo3_MVC/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>SpringDemo3_MVC</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="SpringDemo3_MVC.war">
+      <element id="artifact" artifact-name="SpringDemo3_MVC:war exploded" />
+    </root>
+  </artifact>
+</component>

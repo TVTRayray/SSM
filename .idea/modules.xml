@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MybatisDemo1_quick/MybatisDemo1_quick.iml" filepath="$PROJECT_DIR$/MybatisDemo1_quick/MybatisDemo1_quick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisDemo2_dao/MybatisDemo2_dao.iml" filepath="$PROJECT_DIR$/MybatisDemo2_dao/MybatisDemo2_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisDemo3_mapper/MybatisDemo3_mapper.iml" filepath="$PROJECT_DIR$/MybatisDemo3_mapper/MybatisDemo3_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisDemo4_config/MybatisDemo4_config.iml" filepath="$PROJECT_DIR$/MybatisDemo4_config/MybatisDemo4_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisDemo5_multi/MybatisDemo5_multi.iml" filepath="$PROJECT_DIR$/MybatisDemo5_multi/MybatisDemo5_multi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisDemo6_anno/MybatisDemo6_anno.iml" filepath="$PROJECT_DIR$/MybatisDemo6_anno/MybatisDemo6_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo1_ioc/SpringDemo1_ioc.iml" filepath="$PROJECT_DIR$/SpringDemo1_ioc/SpringDemo1_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo2_anno/SpringDemo2_anno.iml" filepath="$PROJECT_DIR$/SpringDemo2_anno/SpringDemo2_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo3_MVC/SpringDemo3_MVC.iml" filepath="$PROJECT_DIR$/SpringDemo3_MVC/SpringDemo3_MVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo4_jdbc/SpringDemo4_jdbc.iml" filepath="$PROJECT_DIR$/SpringDemo4_jdbc/SpringDemo4_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo5_test/SpringDemo5_test.iml" filepath="$PROJECT_DIR$/SpringDemo5_test/SpringDemo5_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo6_interceptor/SpringDemo6_interceptor.iml" filepath="$PROJECT_DIR$/SpringDemo6_interceptor/SpringDemo6_interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo7_exception/SpringDemo7_exception.iml" filepath="$PROJECT_DIR$/SpringDemo7_exception/SpringDemo7_exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo8_aop/SpringDemo8_aop.iml" filepath="$PROJECT_DIR$/SpringDemo8_aop/SpringDemo8_aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo9_tx/SpringDemo9_tx.iml" filepath="$PROJECT_DIR$/SpringDemo9_tx/SpringDemo9_tx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo9_tx_anno/SpringDemo9_tx_anno.iml" filepath="$PROJECT_DIR$/SpringDemo9_tx_anno/SpringDemo9_tx_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/VCS.iml" filepath="$PROJECT_DIR$/.idea/VCS.iml" />
+    </modules>
+  </component>
+</project>

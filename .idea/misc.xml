@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/MybatisDemo1_quick" />
+    <file type="web" url="file://$PROJECT_DIR$/MybatisDemo2_dao" />
+    <file type="web" url="file://$PROJECT_DIR$/MybatisDemo3_mapper" />
+    <file type="web" url="file://$PROJECT_DIR$/MybatisDemo4_config" />
+    <file type="web" url="file://$PROJECT_DIR$/MybatisDemo5_multi" />
+    <file type="web" url="file://$PROJECT_DIR$/MybatisDemo6_anno" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringDemo1_ioc" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringDemo2_anno" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringDemo3_MVC" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringDemo4_jdbc" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringDemo5_test" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringDemo6_interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringDemo7_exception" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringDemo8_aop" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringDemo9_tx" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringDemo9_tx_anno" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SpringDemo1_ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDemo3_MVC/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDemo2_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDemo4_jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDemo5_test/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDemo6_interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDemo7_exception/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDemo8_aop/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDemo9_tx/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDemo9_tx_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisDemo1_quick/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisDemo2_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisDemo3_mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisDemo4_config/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisDemo5_multi/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisDemo6_anno/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>

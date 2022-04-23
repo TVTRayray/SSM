@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+            id:标识，后续通过getBean(id)可以获得该对象
+            class:填写想要获得对象的全限定类名（包名）
+            scope:代表Bean标签的对象作用范围：
+                                        singleton：默认值，单例(在加载配置文件时。就会创建对象)
+                                        prototype：多例的(只有在使用getBean时才会创建对象)
+            生命周期：
+                    init/[destroy]-method:指定类中的初始化[销毁]方法名称
+    -->
+    <bean id="userDao" class="org.example.Dao.Impl.UserDaoImpl" scope="prototype"/>
+
+
+    <bean id="userService1" class="org.example.service.Impl.UserServiceImplDemo1"/>
+
+
+<!--
+
+        注入类型：
+                1.引用数据类型(类似于对象)
+                2.普通数据类型
+                3.集合数据类型
+
+        依赖注入方式：
+                传统方式：将Service和Dao都交给Spring容器来进行对象创建，Service执行操作时，实际上
+                        是在自己的Impl类中的某个方法实现了对dao对象的间接创建，使用时只需要在外部使
+                        用Spring创建Service对象，调用Service的对应方法来实现Dao对象的创建
+                注入方式: 1.property属性，name对应的是当前对象的set方法对象的小写（setUserDao），ref是对应生成对象的id
+                         2.通过构造器注入对象
+-->
+
+<!--
+                1.1.1 通过set注入对象
+-->
+<!--    <bean id="userService2" class="org.example.service.Impl.UserServiceImplDemo">-->
+<!--        <property name="userDao" ref="userDao"></property>-->
+<!--    </bean>-->
+    <!--
+                1.1.2 通过set注入对象-采用p命名空间注入对象
+    -->
+    <bean id="userService2" class="org.example.service.Impl.UserServiceImplDemo2"
+          p:userDao-ref="userDao">
+    </bean>
+
+    <!--
+                1.2 通过构造器注入对象
+-->
+    <bean id="userService3" class="org.example.service.Impl.UserServiceImplDemo3">
+        <constructor-arg name="userDao" ref="userDao"/>
+    </bean>
+
+    <!--
+                2.1 普通、集合数据类型set注入 (value)
+-->
+    <bean id="userDao2" class="org.example.Dao.Impl.UserDaoImpl2">
+        <property name="username" value="Ray"/>
+        <property name="age" value="15"/>
+        <property name="list">
+            <list>
+                <value>111</value>
+                <value>111</value>
+                <value>111</value>
+            </list>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="p1">ppp1</prop>
+                <prop key="p2">ppp2</prop>
+                <prop key="p3">ppp3</prop>
+            </props>
+        </property>
+        <property name="userMap">
+            <map>
+                <entry key="u1" value-ref="user1"/>
+                <entry key="u2" value-ref="user2"/>
+                <entry key="u3" value-ref="user3"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="user1" class="org.example.domain.User">
+        <property name="name" value="j"/>
+        <property name="add" value="cqupt"/>
+    </bean>
+    <bean id="user2" class="org.example.domain.User">
+        <property name="name" value="q"/>
+        <property name="add" value="cqupt"/>
+    </bean>
+    <bean id="user3" class="org.example.domain.User">
+        <property name="name" value="c"/>
+        <property name="add" value="cqupt"/>
+    </bean>
+</beans>

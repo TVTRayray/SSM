@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringDemo4_jdbc:war">
+    <output-path>$PROJECT_DIR$/SpringDemo4_jdbc/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>SpringDemo4_jdbc</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="SpringDemo4_jdbc.war">
+      <element id="artifact" artifact-name="SpringDemo4_jdbc:war exploded" />
+    </root>
+  </artifact>
+</component>

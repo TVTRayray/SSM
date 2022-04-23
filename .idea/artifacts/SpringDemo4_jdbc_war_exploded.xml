@@ -1,0 +1,38 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringDemo4_jdbc:war exploded">
+    <output-path>$PROJECT_DIR$/SpringDemo4_jdbc/target/SpringDemo4_jdbc</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>SpringDemo4_jdbc</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringDemo4_jdbc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.25" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/SpringDemo4_jdbc/target/SpringDemo4_jdbc/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="SpringDemo4_jdbc/web/Web" />
+    </root>
+  </artifact>
+</component>

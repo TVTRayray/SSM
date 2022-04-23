@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MybatisDemo6_anno" />
+        <module name="MybatisDemo2_dao" />
+        <module name="SpringDemo8_aop" />
+        <module name="SpringDemo9_tx" />
+        <module name="MybatisDemo1_quick" />
+        <module name="SpringDemo7_exception" />
+        <module name="MybatisDemo4_config" />
+        <module name="SpringDemo9_tx_anno" />
+        <module name="SpringDemo6_interceptor" />
+        <module name="MybatisDemo3_mapper" />
+        <module name="MybatisDemo5_multi" />
+        <module name="SpringDemo4_jdbc" />
+        <module name="SpringDemo5_test" />
+        <module name="SpringDemo1_ioc" />
+        <module name="SpringDemo3_MVC" />
+        <module name="SpringDemo2_anno" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MybatisDemo1_quick" target="1.7" />
+      <module name="MybatisDemo2_dao" target="1.7" />
+      <module name="MybatisDemo3_mapper" target="1.7" />
+      <module name="MybatisDemo4_config" target="1.7" />
+      <module name="MybatisDemo5_multi" target="1.7" />
+      <module name="MybatisDemo6_anno" target="1.7" />
+      <module name="SpringDemo1_ioc" target="1.7" />
+      <module name="SpringDemo2_anno" target="1.7" />
+      <module name="SpringDemo3_MVC" target="1.7" />
+      <module name="SpringDemo4_jdbc" target="1.7" />
+      <module name="SpringDemo5_test" target="1.7" />
+      <module name="SpringDemo6_interceptor" target="1.7" />
+      <module name="SpringDemo7_exception" target="1.7" />
+      <module name="SpringDemo7_exception (1)" target="17" />
+      <module name="SpringDemo8_aop" target="1.7" />
+      <module name="SpringDemo9_tx" target="1.7" />
+      <module name="SpringDemo9_tx_anno" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

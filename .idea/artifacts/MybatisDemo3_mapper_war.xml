@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MybatisDemo3_mapper:war">
+    <output-path>$PROJECT_DIR$/MybatisDemo3_mapper/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>MybatisDemo3_mapper</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="MybatisDemo3_mapper.war">
+      <element id="artifact" artifact-name="MybatisDemo3_mapper:war exploded" />
+    </root>
+  </artifact>
+</component>
